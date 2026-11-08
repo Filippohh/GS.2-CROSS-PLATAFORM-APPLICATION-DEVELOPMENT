@@ -122,11 +122,11 @@ export const GovernanceScreen: React.FC = () => {
         </View>
       </View>
 
-      {/* Explicabilidade e IA Responsável (Human-in-the-loop) */}
+      {/* Explicabilidade e Governança de Decisão (Human-in-the-loop) */}
       <View style={styles.sectionCard}>
         <View style={styles.sectionHeader}>
-          <MaterialCommunityIcons name="robot-off" size={22} color={colors.dimensionEnergy} />
-          <Text style={styles.sectionTitle}>Explicabilidade e Apoio à Decisão Humana</Text>
+          <MaterialCommunityIcons name="scale-balance" size={22} color={colors.dimensionEnergy} />
+          <Text style={styles.sectionTitle}>Transparência e Governança de Decisão</Text>
         </View>
 
         <Text style={styles.sectionParagraph}>

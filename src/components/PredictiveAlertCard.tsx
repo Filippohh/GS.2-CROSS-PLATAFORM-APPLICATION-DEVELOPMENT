@@ -97,8 +97,8 @@ export const PredictiveAlertCard: React.FC<PredictiveAlertCardProps> = ({
           {/* Justificativa Técnica do Modelo */}
           <View style={styles.infoBlock}>
             <View style={styles.infoBlockHeader}>
-              <MaterialCommunityIcons name="brain" size={16} color={colors.primary} />
-              <Text style={styles.infoBlockTitle}>Justificativa Algorítmica:</Text>
+              <MaterialCommunityIcons name="chart-timeline-variant" size={16} color={colors.primary} />
+              <Text style={styles.infoBlockTitle}>Fundamentação Técnica e Estatística:</Text>
             </View>
             <Text style={styles.infoBlockContent}>{alert.justification}</Text>
           </View>

@@ -103,7 +103,7 @@ export const DashboardScreen: React.FC<DashboardScreenProps> = ({ navigation }) 
               {criticalAlertsCount} {criticalAlertsCount === 1 ? 'Alerta Crítico Requer' : 'Alertas Críticos Requerem'} Decisão
             </Text>
             <Text style={styles.attentionSub}>
-              Toque para abrir a lista detalhada com justificativas algorítmicas e limitações.
+              Toque para abrir a lista detalhada com justificativas técnicas e limitações.
             </Text>
           </View>
           <MaterialCommunityIcons name="chevron-right" size={20} color={colors.riskCritical} />
@@ -231,7 +231,7 @@ export const DashboardScreen: React.FC<DashboardScreenProps> = ({ navigation }) 
 
           {/* Highlight Top Predictive Alert */}
           <View style={styles.sectionHeader}>
-            <MaterialCommunityIcons name="crystal-ball" size={20} color={colors.primary} />
+            <MaterialCommunityIcons name="shield-alert-outline" size={20} color={colors.primary} />
             <Text style={styles.sectionTitle}>Alerta Preditivo em Evidência</Text>
           </View>
 

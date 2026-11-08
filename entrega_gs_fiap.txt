@@ -24,7 +24,7 @@ RESUMO TÉCNICO DA ENTREGA:
 - Formulários com Validação: Formulário de Nova Intervenção com validações em tempo real de campos obrigatórios, faixas numéricas e tamanho mínimo de justificativa
 - Componentes Reutilizáveis: Design System próprio (StatCard, RiskBadge, ConfidenceMeter, PredictiveAlertCard, MiniChart, CustomButton, CustomInput, Header)
 - Acessibilidade e Privacidade: Suporte a WCAG 2.1 AA, modo Alto Contraste, labels para leitores de tela e total conformidade com a LGPD (Zero PII e anonimização espacial)
-- Apoio à Decisão Humana: Alertas preditivos com justificativa técnica, nível de confiança (%) e declaração explícita de limitações do modelo de IA (Human-in-the-Loop)
+- Apoio à Decisão Humana: Alertas preditivos com justificativa técnica, nível de confiança (%) e declaração explícita de limitações dos modelos estatísticos e preditivos (Human-in-the-Loop)
 
 INSTRUÇÕES RÁPIDAS PARA O AVALIADOR:
 1. Clonar o repositório
