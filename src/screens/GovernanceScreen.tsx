@@ -79,7 +79,7 @@ export const GovernanceScreen: React.FC = () => {
         <View style={styles.repoBox}>
           <MaterialCommunityIcons name="github" size={18} color="#FFFFFF" />
           <Text style={styles.repoText} numberOfLines={1}>
-            github.com/Filippohh/GS.2-PLATAFORM-APPLICATION-DEVELOPMENT
+            github.com/Filippohh/GS.2-CROSS-PLATAFORM-APPLICATION-DEVELOPMENT
           </Text>
         </View>
       </View>
