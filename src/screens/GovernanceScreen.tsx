@@ -75,6 +75,13 @@ export const GovernanceScreen: React.FC = () => {
             </View>
           </View>
         ))}
+
+        <View style={styles.repoBox}>
+          <MaterialCommunityIcons name="github" size={18} color="#FFFFFF" />
+          <Text style={styles.repoText} numberOfLines={1}>
+            github.com/Filippohh/GS.2-PLATAFORM-APPLICATION-DEVELOPMENT
+          </Text>
+        </View>
       </View>
 
       {/* LGPD & Privacy Section (Critério Requisitado) */}
@@ -323,6 +330,22 @@ const styles = StyleSheet.create({
     fontSize: 10.5,
     color: '#94A3B8',
     marginTop: 2,
+  },
+  repoBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.25)',
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 8,
+    marginTop: 6,
+    gap: 8,
+  },
+  repoText: {
+    fontSize: 11,
+    color: '#FFFFFF',
+    fontWeight: '600',
+    flex: 1,
   },
   sectionCard: {
     backgroundColor: colors.surface,

@@ -92,8 +92,8 @@ Para garantir transparência algorítmica, o aplicativo explicita diretamente ao
 
 ### Passo 1: Clonar o Repositório
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd "GS.2 - CROSS-PLATAFORM APPLICATION DEVELOPMENT"
+git clone https://github.com/Filippohh/GS.2-PLATAFORM-APPLICATION-DEVELOPMENT.git
+cd "GS.2-PLATAFORM-APPLICATION-DEVELOPMENT"
 ```
 
 ### Passo 2: Instalar as Dependências

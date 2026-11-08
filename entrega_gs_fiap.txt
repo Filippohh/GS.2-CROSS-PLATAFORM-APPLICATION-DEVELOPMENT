@@ -12,8 +12,7 @@ INTEGRANTES DO GRUPO:
 
 --------------------------------------------------------------------------------
 LINK DO REPOSITÓRIO GITHUB:
-https://github.com/[SEU_USUARIO]/[NOME_DO_REPOSITORIO]
-(Substitua pelo link do repositório onde você publicou este código)
+https://github.com/Filippohh/GS.2-PLATAFORM-APPLICATION-DEVELOPMENT.git
 --------------------------------------------------------------------------------
 
 RESUMO TÉCNICO DA ENTREGA:
