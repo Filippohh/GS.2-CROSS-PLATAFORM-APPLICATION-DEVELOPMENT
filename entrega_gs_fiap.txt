@@ -1,0 +1,35 @@
+================================================================================
+FIAP - CIÊNCIA DA COMPUTAÇÃO - TURMA DE FEVEREIRO (2º ANO)
+DISCIPLINA: Cross-Platform Application Development
+GLOBAL SOLUTION 2026.2
+TEMA: CitizenTech - Painel de Inteligência Territorial
+================================================================================
+
+INTEGRANTES DO GRUPO:
+1. RM: 564437 - Pedro Barreto
+2. RM: 565994 - Filippo Picino
+3. RM: 563695 - Gustavo Henrique
+
+--------------------------------------------------------------------------------
+LINK DO REPOSITÓRIO GITHUB:
+https://github.com/[SEU_USUARIO]/[NOME_DO_REPOSITORIO]
+(Substitua pelo link do repositório onde você publicou este código)
+--------------------------------------------------------------------------------
+
+RESUMO TÉCNICO DA ENTREGA:
+- Plataforma: React Native com Expo SDK 58 e TypeScript
+- Navegação: React Navigation v7 com Bottom Tabs (Dashboard, Alertas, Decisão, Intervenções, Governança)
+- Gerenciamento de Estado: React Context API (TerritoryContext)
+- Consumo de API: Integração ao vivo com a API Open-Meteo Weather Forecast (temperatura, umidade, vento e precipitação) + telemetria territorial estruturada
+- Persistência Local: AsyncStorage para histórico de intervenções, decisões do gestor e preferências
+- Formulários com Validação: Formulário de Nova Intervenção com validações em tempo real de campos obrigatórios, faixas numéricas e tamanho mínimo de justificativa
+- Componentes Reutilizáveis: Design System próprio (StatCard, RiskBadge, ConfidenceMeter, PredictiveAlertCard, MiniChart, CustomButton, CustomInput, Header)
+- Acessibilidade e Privacidade: Suporte a WCAG 2.1 AA, modo Alto Contraste, labels para leitores de tela e total conformidade com a LGPD (Zero PII e anonimização espacial)
+- Apoio à Decisão Humana: Alertas preditivos com justificativa técnica, nível de confiança (%) e declaração explícita de limitações do modelo de IA (Human-in-the-Loop)
+
+INSTRUÇÕES RÁPIDAS PARA O AVALIADOR:
+1. Clonar o repositório
+2. Executar: npm install
+3. Para testar no navegador: npm run web
+4. Para testar no celular (Expo Go): npm start
+================================================================================
